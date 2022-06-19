@@ -30,6 +30,7 @@ function Create(props) {
 
         {(obj.title!==""&&obj.content!=="")?props.onClick(obj):alert("all fields must be filled")}
 
+        // this will reset all the fileds of the form after submitting 
         setObj({
             title: "",
             content: ""
